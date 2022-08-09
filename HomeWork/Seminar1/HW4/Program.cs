@@ -10,18 +10,18 @@ int number = 0;
 Console.Write("Четные числа до числа " + numberA + " равны: ");
 
 //Логика по выписыванию всех четных/нечотных чисел до заданного числа
-while(count <= numberA)
+while (count <= numberA)
+{
+    if ((count % 2) == 0)
     {
-        if ((count % 2) == 0)
-        {
-            number = count;
-            Console.Write(number + ", ");
-            count++;
-            
-        }
-        else
-        {  
-        count++;    
-        }
+        number = count;
+        Console.Write(number + ", ");
+        count++;
+
     }
- 
+    else
+    {
+        count++;
+    }
+}
+
