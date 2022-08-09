@@ -1,4 +1,6 @@
-﻿Console.Clear();
+﻿//Кратно ли число 7 и 23
+
+Console.Clear();
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number % 7 == 0 & number % 23 ==0)
