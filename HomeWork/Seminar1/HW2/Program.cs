@@ -8,10 +8,11 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.Write("Вставьте число c = ");
 int numberС = Convert.ToInt32(Console.ReadLine());
 
-//Логика по вычислению максимума
+//Логика по вычислению максимумального числа из трех заданных
 int max = numberA;
     while(numberA > max) max = numberA;
     while(numberB > max) max = numberB;
     while(numberС > max) max = numberС;
 
-    Console.Write("Максимальное число равно, " + max);
+//Финальный вывод
+Console.Write("Максимальное число равно: " + max);
