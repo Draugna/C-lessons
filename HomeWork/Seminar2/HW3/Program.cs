@@ -17,7 +17,7 @@ while (num > 8);
 }
 else
 {
-    num = num;
+    
 }
 if( num == 6 ^ num == 7)
         {
