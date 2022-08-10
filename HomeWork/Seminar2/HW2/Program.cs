@@ -1,2 +1,42 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая выводит третью цифру 
+// заданного числа или сообщает, что третьей цифры нет.
+
+Console.Clear();
+Console.Write("Введите число : ");
+
+// Все значения
+int num = Convert.ToInt32(Console.ReadLine());
+int n = num;
+int i = 0;
+int numA = 0;
+int numB = 0;
+
+//Подсчет количества цифр
+while (num > 0)
+{
+    i++;
+    num /= 10;
+    //Делим число num пока наше число не будет меньше нуля
+}
+Console.WriteLine($"Количество цифр введенного числа : {i}");
+
+//Вычисление 3 числа
+int k = Convert.ToInt32(Math.Pow(10, i - 3));
+//k - Степень в которую должны возвести для получения 3 чисел
+if (n < 100)
+//n - Равен введенному вручную значению
+{
+    Console.WriteLine("Третей цифры нет");
+}
+else
+{
+    numA = n / k;
+    // Получаем Трехзначное число 
+    numB = numA % 10;
+    //Получаем остаток от Трехзначного числа - Ответ
+    Console.WriteLine($"Третья цифра введенного числа : {numB}");
+}
+
+
+
+
