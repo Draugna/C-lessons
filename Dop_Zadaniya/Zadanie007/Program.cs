@@ -2,7 +2,7 @@
 // математика, и - история, г - география, б - биология (оператор switch).
 Console.Clear();
 Console.Write("Введите первую букву предмета: ");
-string a = Console.ReadLine();
+string? a = Console.ReadLine();
 
 switch(a)
 {

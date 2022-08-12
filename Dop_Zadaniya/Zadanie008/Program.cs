@@ -3,7 +3,7 @@
 
 Console.Clear();
 Console.Write("Введите первую букву Страны: ");
-string a = Console.ReadLine();
+string? a = Console.ReadLine();
 
 switch(a)
 {

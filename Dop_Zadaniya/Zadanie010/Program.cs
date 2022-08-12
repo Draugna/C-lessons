@@ -3,7 +3,7 @@
 Console.Clear();
 
 // Ввод данных
-string login = "0"; // Задаваемый логин
+string? login = "0"; // Задаваемый логин
 int password = 0; //Задаваемый пароль
 int len = login.Length; // Длина Логина
 int length = password;  // Копия пароля для проверки длины
