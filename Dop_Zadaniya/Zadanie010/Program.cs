@@ -14,7 +14,7 @@ do
 {
     Console.Write("Введите Логин: ");
     login = Console.ReadLine();
-    len = login.Length;
+    len = login!.Length;
 } while (len < 5 ^ len > 5);
 
 // Проверка на кол-во сиволов в пароле
