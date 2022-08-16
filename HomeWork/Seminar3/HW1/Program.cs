@@ -17,8 +17,7 @@ do
     c = c * 10 + d;
 Console.WriteLine(c);
 } while (c < a);
- 
- c = c/10;
+
  
  if (c == a)
  {
