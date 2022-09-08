@@ -15,9 +15,9 @@ void Multiply (int z, int x)
 
 
 Console.Write("Введите число А: ");
-int A = int.Parse(Console.ReadLine());
+int A = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите степень: ");
-int B = int.Parse(Console.ReadLine());
+int B = Convert.ToInt32(Console.ReadLine());
 
 Multiply(A,B);

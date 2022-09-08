@@ -5,7 +5,7 @@
 Console.Clear();
 
 Console.Write("Введите число а: ");
-int a = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 int b = a;
 int c = 0;
 int d = 0;

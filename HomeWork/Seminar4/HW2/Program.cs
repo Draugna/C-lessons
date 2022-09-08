@@ -16,6 +16,6 @@ void SumOfNumber (int a)
 }
 
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 SumOfNumber(num);
